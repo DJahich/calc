@@ -8,7 +8,7 @@ public class Main {
         System.out.print("Введите первое число: ");
         int operand1 = scanner.nextInt();
 
-        System.out.println("Укажите желаемую операцию (+, -, *, /):");
+        System.out.println("Введите желаемую операцию (+, -, *, /):");
         char operation = scanner.next().charAt(0); 
 
         System.out.print("Введите второе число: ");
@@ -36,7 +36,7 @@ public class Main {
                 }
                 break;
             default:
-                System.out.println("Ошибка: выберите корректную операцию");
+                System.out.println("Ошибка: некорректная операция");
                 validChoice = false;
         }
 
